@@ -8,4 +8,14 @@ public class SignUpDto {
     private String lastName;
     private String email;
     private String password;
+
+    @Override
+    public String toString() {
+        return "SignUpDto{" +
+                "firstName='" + firstName + '\'' +
+                ", lastName='" + lastName + '\'' +
+                ", email='" + email + '\'' +
+                ", password='" + password + '\'' +
+                '}';
+    }
 }
